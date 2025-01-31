@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $secretKey = '6Lf69MgqAAAAAOvy5sRhSfSVXWGwpsTBXFb6L9Pn';
+    $secretKey = '6LfU9sgqAAAAAKTDLx6e7fFHMmbJiVK0HnFo6SKh';
     $captcha = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
 
     if (empty($captcha)) {
